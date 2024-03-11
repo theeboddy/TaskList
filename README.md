@@ -1,19 +1,33 @@
-# tasks_vue
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-## Project setup
-```
-npm install
-```
+# TaskList
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Первое приложение, написанное с использованием фреймворка Vue.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Команды для запуска:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### `npm run srve`
+
+Запускает приложение,
+перейдите по [http://localhost:8080](http://localhost:8080) чтобы увидеть в браузере.
+
+### `json-server --watch db.json`
+
+Запускает сервер, который подключается к json-server и слушает порт 3000 (команду вводить в папке server)
+
+### `npm run build`
+
+Производит сборку проекта
+
+## О проекте
+
+TaskList - приложение-планер, в котором пользователи могут создавать задачи для выполнения.
+Реализовано следующее: подгрузка задач(моковые данные), добавление задачи, поиск,
+задачу можно изменить или удалить, а также отметить выполненной
+
+## Используемые технологии:
+- Axios (интерфейс для HTTP-запросов)
+- Vue (веб-фреймворк)
+
+## Изображение сайта:
+![фото](src/images/image1.png) 
